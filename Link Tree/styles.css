@@ -1,0 +1,56 @@
+body {
+
+    background-image: linear-gradient(to bottom right, rgba(18, 147, 50, 0.788), rgb(98, 78, 178));
+
+  
+    color: white;
+    font-family: "Normal";
+    letter-spacing: 2px;
+  }
+  
+  .profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 7.5%;
+    height: auto;
+    max-width: 100px;
+    border-radius: 100%;
+  }
+  
+  .profile-name {
+    text-align: center;
+  
+    padding: 35px;
+    font-size: 28px;
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 15px;
+    border: 2px solid rgb(3, 4, 52);
+    border-width: 3px;
+    padding: 12px;
+  
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    border-radius: 10px;
+  
+    font-size: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  
+    color: rgb(255, 255, 255);
+    transition: color 0.25s;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: rgb(27, 12, 90);
+  }
